@@ -70,4 +70,10 @@ async function login(req,res){
 
 }
 
-module.exports = {getAll, getById, insert, remove, update , login}
+
+async function logout(req,res){
+
+}
+
+
+module.exports = {getAll, getById, insert, remove, update , login , logout}
